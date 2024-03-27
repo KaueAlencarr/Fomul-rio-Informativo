@@ -1,0 +1,57 @@
+@media only screen and (min-width: 360px) and (max-width: 1104px){
+
+    body{
+        overflow: hidden;
+    }
+
+    .newsletter-content{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100vh;
+    }
+
+    .img-main{
+        display: none;
+    }
+
+    .img-mobile-main{
+        display: block;
+        width: 100vw;
+        height: 40vh;
+        border-radius: 20px;
+    }
+
+    .newsletter-text{
+        padding: 0px 20px;
+        padding-bottom: 30%;
+    }
+
+    .newsletter-text h1{
+        font-size: 42px;
+    }
+
+    .positive-content{
+        margin-top: 10px;
+        padding-right: 20px;
+    }
+
+    .input-email input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .newsletter-form button{
+        display: none;
+    }
+
+    .link-mobile{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .span-required{
+        top: 76vh;
+        left: 61vw;
+    }
+}

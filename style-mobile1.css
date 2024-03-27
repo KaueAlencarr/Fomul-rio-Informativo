@@ -1,0 +1,21 @@
+@media only screen and (min-width: 360px) and (max-width: 1104px){
+.card{
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    border-radius: 0px;
+}
+
+.card img{
+    padding-top: 10vh;
+}
+
+.card h2{
+    font-size: 36px;
+}
+
+.card a{
+    margin-top: 50%;
+}
+
+}

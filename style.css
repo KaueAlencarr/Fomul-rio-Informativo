@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    width: 100vw;
+}
+
+.newsletter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222742;
+    background: #614040;
+    height: 100vh;
+    width: 100vw;
+}
+
+.newsletter-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.newsletter-text {
+    padding: 50px;
+}
+
+.img-mobile-main{
+    display: none;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 56px;
+    padding: 20px 0px;  
+    color: #222742;
+}
+
+p{
+    padding-bottom: 25px;
+    width: 90%;
+}
+
+.positive-content{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.positive-content img{
+    padding-right: 15px;
+}
+
+.newsletter-form{
+   display: flex;
+   flex-direction: column;
+   padding-top: 30px;
+}
+
+.input-email{
+    display: flex;
+    flex-direction: column;
+}
+
+.span-required{
+    display: none;
+    position: absolute;
+    bottom: 21.3vw;
+    left: 38%;
+    font-size: 14px;
+    color: #e63636;
+}
+
+.input-email input{
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.322);
+    margin: 10px 0px 20px 0px;
+    width:88%;
+}
+
+.input-email input::placeholder{
+    font-size: 17px;
+}
+
+.newsletter-form button {
+    padding: 20px;
+    border: 2px solid #222742;
+    border-radius: 10px;
+    background: #222742;
+    width: 88%;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.newsletter-form button:hover{
+    border: 2px solid #FF5D5C;
+    background-image: linear-gradient(to right, #FF5474, #FE5A67, #FF5D5E, #FF6250, #FF6740);
+    box-shadow: 0px 10px 21px 0px rgba(254,90,103,1);
+}
+.newsletter-form .link{
+    position: relative;
+    padding: 20px 50px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.link-mobile{
+    display: none;
+    padding: 20px;
+    border: 2px solid #222742;
+    border-radius: 10px;
+    background: #222742;
+    width: 88%;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.link-mobile:hover{
+    border: 2px solid #FF5D5C;
+    background-image: linear-gradient(to right, #FF5474, #FE5A67, #FF5D5E, #FF6250, #FF6740);
+    box-shadow: 0px 10px 21px 0px rgba(254,90,103,1);
+}
